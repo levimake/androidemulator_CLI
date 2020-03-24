@@ -2,7 +2,7 @@
 
 We lets you create an android emulator using commandline tools without Android Studio. You are expected to work with a Linux based operating system.
   
-## Automatic Installation
+## Run the Script
 ```
 curl -L https://github.com/levimake/androidemulator_CLI/blob/master/install_R.sh | sh
 ```
