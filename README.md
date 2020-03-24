@@ -32,6 +32,15 @@ cd ~
 Android/Sdk/emulator/emulator -avd Pixel
 ```
 
+### Tweaking the Emulator
+```sh
+nano ~/.android/avd/Pixel.avd/config.ini
+#Add these lines
+PlayStore.enabled = true
+hw.keyboard = yes
+#Modify other settings too
+```
+
 ### Uninstalling Everything
 ```sh
 cd ~
