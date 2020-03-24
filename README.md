@@ -54,6 +54,14 @@ Accept all licenses
 ```
 avdmanager create avd -n Pixel -k "system-images;android-R;google_apis_playstore;x86_64" --device 'pixel'
 ```
+### Quick Fix
+```
+cd ~/Android/Sdk
+mkdir platforms
+```
 
-....
-Todo: remaining commands, auto-installer script
+### Starting the Emulator
+```
+Android/Sdk/emulator/emulator -avd Pixel
+```
+
