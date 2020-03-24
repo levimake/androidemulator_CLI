@@ -11,6 +11,7 @@ We lets you create an android emulator using commandline tools without Android S
 ```sh
 cd ~
 mkdir Android && mkdir Android/Sdk
+cd ~/Android/Sdk
 ```
 
 ### Getting the Android and SDK Command Line Tools
