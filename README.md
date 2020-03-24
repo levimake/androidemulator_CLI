@@ -14,9 +14,16 @@ sudo pacman -S jdk-openjdk
 ```
   
 ## Run the Script
+```sh
+git clone https://github.com/levimake/androidemulator_CLI.git
+cd androidemulator_CLI
+./install_avd.sh
+# cleanup
+cd ..
+rm -rf androidemulator_CLI
 ```
-curl -L https://raw.githubusercontent.com/levimake/androidemulator_CLI/master/install_avd.sh | sh
-```
+
+
 Choose the platform version of your choice when prompted.
 
 ### Starting the Emulator
