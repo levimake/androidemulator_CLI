@@ -6,8 +6,9 @@ We lets you create an android emulator using commandline tools without Android S
   - Manual (You may select the version of the reqd tools)
   
 ## Automatic Installation
-
+```
 curl -L https://github.com/levimake/androidemulator_CLI/blob/master/install_R.sh | sh
+```
 
 ## Manual Installation
 
