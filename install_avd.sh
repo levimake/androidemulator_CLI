@@ -28,15 +28,18 @@ cd ~/Android/Sdk/tools/bin
 echo -n "Accept all the licenses"
 ./sdkmanager --licenses
 
+echo -n "Choose the platform version ( 27, 28, 29, Q, R)"
+read platform_ver
+
 echo -n "Geting the SDK Image"
-./sdkmanager "system-images;android-R;google_apis_playstore;x86_64"
+./sdkmanager "system-images;android-$platform_ver;google_apis_playstore;x86_64"
 
 echo -n "Creating the emulator"
-./avdmanager create avd -n PixelR -k "system-images;android-R;google_apis_playstore;x86_64" --device 'pixel'
+./avdmanager create avd -n Pixel -k "system-images;android-$platform_ver;google_apis_playstore;x86_64" --device 'pixel'
 
 echo -n "Quick Fix"
 cd ~/Android/Sdk && mkdir platforms
 
 cd ~
 echo -n "Installation Completed"
-echo -n "You may start the emulator from home directory by running the command Android/Sdk/emulator/emulator -avd PixelR"
+echo -n "You may start the emulator from home directory by running the command Android/Sdk/emulator/emulator -avd Pixel"
