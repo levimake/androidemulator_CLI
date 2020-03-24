@@ -1,6 +1,6 @@
 # Create an Android Emulator From Command Line
 
-We lets you create an android emulator using commandline tools without Android Studio. You are expected to work with a Linux based operating system.
+We lets you create an android emulator using commandline tools without Android Studio. You are expected to work with a Linux based operating system. Kickstart your app development on react native or flutter on your favorite IDE if you don't prefer Android Studio.
 
 ## Dependencies
 - Install Java
