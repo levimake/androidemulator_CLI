@@ -29,13 +29,16 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 ### Getting the SDK Images
 
 ```sh
-touch ~/.android/repositories.cfg
 cd tools/bin/
 ./sdkmanager --sdk_root=${ANDROID_HOME} "tools"
 cd ~/Android/Sdk/tools/bin
 ./sdkmanager --licenses
 ```
 Accept all licenses
+
+```sh
+touch ~/.android/repositories.cfg
+```
 
 ### Download the SDK Image
 
