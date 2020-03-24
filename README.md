@@ -4,7 +4,7 @@ We lets you create an android emulator using commandline tools without Android S
   
 ## Run the Script
 ```
-curl -L https://github.com/levimake/androidemulator_CLI/blob/master/install_avd.sh | sh
+curl -L https://raw.githubusercontent.com/levimake/androidemulator_CLI/master/install_avd.sh | sh
 ```
 
 ### Starting the Emulator
