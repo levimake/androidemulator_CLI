@@ -62,6 +62,7 @@ mkdir platforms
 
 ### Starting the Emulator
 ```
+cd ~
 Android/Sdk/emulator/emulator -avd Pixel
 ```
 
