@@ -68,3 +68,4 @@ echo -n "You may start the emulator from home directory by running the command A
 echo
 echo
 echo
+cd ~
