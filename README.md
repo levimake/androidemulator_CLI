@@ -10,7 +10,7 @@ sudo apt install openjdk-8-jre openjdk-8-jdk
 ```
 #### ArchLinux, Manjaro
 ```sh
-sudo pacman -S jdk-openjdk
+sudo pacman -S jdk-openjdk8
 ```
   
 ## Run the Script
